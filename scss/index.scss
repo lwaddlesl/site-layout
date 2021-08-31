@@ -179,35 +179,3 @@ body {
         }
     }
 }
-@media screen and (max-width: 760px) {
-    .container {
-        flex-direction: column;
-        justify-content: right;
-        .sidebar {
-            margin: auto;
-        }
-        .product {
-            margin: auto;
-            margin-top: 20px;
-        }
-    }
-}
-@media screen and (max-width: 400px) {
-    .sidebar {
-        .sidebar__forms {
-            width: 310px;
-            textarea {
-                width: 280px;
-            }
-        }
-    }
-
-    .product {
-        .product__items {
-            width: 280px;
-            img {
-                width: 280px;
-            }
-        }
-    }
-}
