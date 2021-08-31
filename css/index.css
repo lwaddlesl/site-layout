@@ -223,3 +223,37 @@ body {
   font-weight: 600;
   padding: 16px;
 }
+
+@media screen and (max-width: 760px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  .container .sidebar {
+    margin: auto;
+  }
+  .container .product {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar .sidebar__forms {
+    width: 310px;
+  }
+  .sidebar .sidebar__forms textarea {
+    width: 280px;
+  }
+  .product .product__items {
+    width: 280px;
+  }
+  .product .product__items img {
+    width: 280px;
+  }
+}
